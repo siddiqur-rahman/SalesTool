@@ -8,6 +8,7 @@ public class SalesData {
 		for(int i: data){
 			System.out.println("next value: "+i);
 		}
+		System.out.println("So the sum is: "+sum());
 	}
 	public int sum(){
 		int sum=0;
