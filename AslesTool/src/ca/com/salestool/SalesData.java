@@ -9,4 +9,10 @@ public class SalesData {
 			System.out.println("next value: "+i);
 		}
 	}
+	public int sum(){
+		int sum=0;
+		for(int i:data)
+			sum+=i;
+		return sum;
+	}
 }
