@@ -16,4 +16,20 @@ public class SalesData {
 			sum+=i;
 		return sum;
 	}
+	public int max(){
+		int max=data[0];
+		for(int i: data){
+			if(max<i)
+				max=i;
+		}
+		return max;
+	}
+	public int min(){
+		int small=data[0];
+		for(int i: data){
+			if(small>i)
+				small=i;
+		}
+		return small;
+	}
 }
