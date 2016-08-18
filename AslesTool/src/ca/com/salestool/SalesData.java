@@ -9,6 +9,7 @@ public class SalesData {
 			System.out.println("next value: "+i);
 		}
 		System.out.println("So the sum is: "+sum());
+		System.out.println("So the average value is: "+this.avg());
 	}
 	public int sum(){
 		int sum=0;
@@ -31,5 +32,16 @@ public class SalesData {
 				small=i;
 		}
 		return small;
+	}
+	public double avg(){
+		double avg=0.0;
+		double sum=0;
+		int count=0;
+		for(int i:data){
+			count++;
+			sum+=i;
+		}
+		avg=sum/count;	
+		return avg;
 	}
 }
