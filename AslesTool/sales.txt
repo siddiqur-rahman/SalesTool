@@ -1,1 +1,5 @@
 this file is to check revert command in git.
+
+new customer added in repository. 
+
+1. siddiqur rahman
